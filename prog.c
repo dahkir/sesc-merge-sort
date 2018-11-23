@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int min(int a, int b) {
-  if(a<b){return a;}else{return b;}
+int min(int x, int y) {
+  if(x<y){return x;}else{return y;}
 }
 
 void merge(int *newarr, int *arr1, int *arr2, int l1, int l2) {
